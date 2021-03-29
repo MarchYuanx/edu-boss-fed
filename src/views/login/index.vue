@@ -1,15 +1,14 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <h1>LoginIndex</h1>
 </template>
 
-<script lang="ts">
+<script lang='ts'>
 import Vue from 'vue'
 
 export default Vue.extend({
+  name: 'LoginIndex'
 })
 </script>
 
-<style lang="scss" scoped>
+<style lang='scss' scoped>
 </style>

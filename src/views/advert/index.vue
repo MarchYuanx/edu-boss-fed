@@ -1,15 +1,14 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <h1>AdvertIndex</h1>
 </template>
 
-<script lang="ts">
+<script lang='ts'>
 import Vue from 'vue'
 
 export default Vue.extend({
+  name: 'AdvertIndex'
 })
 </script>
 
-<style lang="scss" scoped>
+<style lang='scss' scoped>
 </style>
