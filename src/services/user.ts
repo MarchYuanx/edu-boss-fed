@@ -17,7 +17,6 @@ export const login = (data: User) => {
 }
 
 export const getUserInfo = () => {
-  console.log('getUserInfo')
   return request({
     method: 'GET',
     url: '/front/user/getInfo'
