@@ -52,7 +52,6 @@ request.interceptors.response.use(function (response) {
     if (status === 400) {
       Message.error('请求参数错误')
     } else if (status === 401) {
-      console.log('401', error.config.url)
       if (!store.state.user) {
         redirectLogin()
         return Promise.reject(error)
