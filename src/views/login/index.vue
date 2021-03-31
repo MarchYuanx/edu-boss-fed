@@ -65,10 +65,9 @@ export default Vue.extend({
 
         const { data } = await login(this.form)
         if (data.success) {
-          this.$router.push({
-            name: 'home'
-          })
-          this.$message.success(data.message)
+          this.$store.commit('setUser', data.content)
+          this.$router.push(this.$route.query.redirect as string || '/')
+          this.$message.success('登录成功')
         } else {
           this.$message.error(data.message)
         }
