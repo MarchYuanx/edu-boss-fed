@@ -51,7 +51,7 @@
 
 <script lang='ts'>
 import Vue from 'vue'
-import { getAllMenus, deleteMenu } from '@/services/meun'
+import { getAllMenus, deleteMenu } from '@/services/menu'
 
 export default Vue.extend({
   name: 'MenuIndex',

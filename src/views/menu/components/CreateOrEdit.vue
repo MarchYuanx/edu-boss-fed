@@ -50,7 +50,7 @@
 
 <script lang='ts'>
 import Vue from 'vue'
-import { createOrUpdateMenu, getEditMenuInfo } from '@/services/meun'
+import { createOrUpdateMenu, getEditMenuInfo } from '@/services/menu'
 
 export default Vue.extend({
   name: 'MenuCreateOrEdit',
